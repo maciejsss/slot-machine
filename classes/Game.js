@@ -29,7 +29,7 @@ class Game {
         this.spanResult.textContent = result;
         this.spanGames.textContent = stats[0];
         this.spanWins.textContent = stats[1];
-        this.spanLosses.textContent = stats[3];
+        this.spanLosses.textContent = stats[2];
     }
     startGame() {
         if (this.inputBid.value < 1) return alert("You don't have enough money!");
